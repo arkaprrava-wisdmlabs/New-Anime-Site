@@ -1,0 +1,8 @@
+footer{
+    position:static;
+    bottom: 0px;
+    width:100%;
+    height: 250px;
+    background-color: #ecdfcf;
+    /* background-color: #ddd3c7; */
+}
