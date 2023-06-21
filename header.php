@@ -20,5 +20,10 @@ wp_head();
             <div class="search-field">
                 <?php get_search_form(); ?>
             </div>
+            <style>
+                header{
+                    background-image: url(<?php echo get_header_image(  ); ?>);
+                }
+            </style>
         </header>
         <div class="middle">
