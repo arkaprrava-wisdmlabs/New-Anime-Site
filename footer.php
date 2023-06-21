@@ -12,6 +12,9 @@ wp_footer();
             <div class="search-field">
                 <?php get_search_form(); ?>
             </div>
+            <div class="copyright" style="margin-left:100px;margin-top:20px;">
+                &copy;<?php echo bloginfo('name');?>, All Rights Reserved
+            </div>
         </footer>
     </body>
 </html>
