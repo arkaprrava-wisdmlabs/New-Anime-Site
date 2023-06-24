@@ -1,4 +1,39 @@
 .middle{
-    background-color: #f1e2d1;
+    background-color:#000;
     padding: 10px 95px;
+    margin:0;
+    color: whitesmoke;
+}
+.category-content{
+    display:inline-flex;
+}
+.category-content-card{
+    display:block;
+    background-color: #181818;
+    padding: 20px;
+    margin: 30px 20px;
+    border:1px solid #1b1b1b;
+    border-radius: 12px;
+}
+p > a{
+    color:#181818;
+}
+p:hover > a{
+    color:#34bc34;
+}
+.content{
+    display:inline-flex;
+}
+.content > .sidebar{
+    display:block;
+    padding: 0px 10px;
+}
+.video{
+    width:65%;
+    margin-top:20px;
+    margin-left:10px;
+}
+.image{
+    margin-top:20px;
+    margin-left:30px;
 }

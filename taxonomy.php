@@ -1,13 +1,19 @@
 <?php
 get_header();
+$queried_object = get_queried_object();
 $posts = get_posts( array(
     'post_type' => 'sfwd-courses',
     'showposts' => -1,
+    'tax_query' => array(
+        'taxonomy' => $queried_object->taxonomy,
+        'terms' => $queried_object->term_id,
+        'field' => 'term_id'
+    ),
     'orderby' => 'title',
     'order' => 'ASC'
 ) );
 ?>
-<h1><?php _e('Latest Animes', 'wdm_cm'); ?></h1>
+<h1><?php echo $queried_object->name; ?></h1>
 <div class="category-content">
     <?php 
     $out = '';

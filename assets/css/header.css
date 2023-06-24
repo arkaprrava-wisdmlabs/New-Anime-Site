@@ -10,7 +10,13 @@ header {
     overflow-x: hidden;
     margin: 0px;
 }
-
+a{
+    text-decoration: none;
+    color:whitesmoke;
+}
+a:hover{
+    color:rgb(174, 220, 222);
+}
 .menu {
     display: inline-flex;
     width:100%;
@@ -21,12 +27,7 @@ header {
     margin-right: 50px;
 }
 .menu a{
-    text-decoration: none;
     font-size: 20px;
-    color:whitesmoke;
-}
-.menu a:hover{
-    color:rgb(180, 230, 160);
 }
 .company {
     margin: 50px 0px 0px 90px;

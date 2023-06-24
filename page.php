@@ -1,9 +1,7 @@
 <?php
 get_header();
 ?>
-
-// index
-
+Page
 <?php
 get_footer();
 ?>
